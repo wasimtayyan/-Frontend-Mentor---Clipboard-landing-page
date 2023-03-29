@@ -1,0 +1,86 @@
+header{
+    background-image: url(./images/bg-header-mobile.png);
+    background-size: cover;
+      background-repeat: no-repeat;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    /* color: hsl(210, 10%, 33%); */
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+   
+}
+.btn1{
+    color: white;
+    border-radius: 50px;
+    background-color: hsl(171, 66%, 44%);
+    width: 100%;
+    padding: 10px 30px;
+    border-bottom: 3px solid #259581;
+    box-shadow: 0 4px 13px -2px #259581;
+    
+}
+.btn1:hover {
+  color: #fff;
+
+  background-color: #5ccdbd;
+  border-bottom: 3px solid #58bfaf;
+  box-shadow: 0 4px 13px -2px #5ccdbd;}
+
+
+.btn2{
+    color: white;
+    border-radius: 50px;
+    background-color: hsl(233, 100%, 69%);
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 0 4px 13px -2px #5c68c4;
+}
+.btn2:hover {
+  color: #fff;
+  background-color: #8896ff;
+  border-bottom: 3px solid #7e8cee;
+  box-shadow: 0 4px 13px -2px #8896ff;}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+    gap: 60px;
+    margin-bottom: 5em;
+}
+.gray{
+    color: hsl(201, 11%, 66%);
+     text-decoration: none;
+}
+footer{
+    background-color: #f5f6f8;
+   
+}
+footer a {
+  text-decoration: none;
+  color: #919396;
+  cursor: pointer;
+ font-weight: bold;}
+
+footer a:hover {
+  color:hsl(233, 100%, 69%);;
+}
+
+@media (min-width: 992px) {
+   #pc{
+    /* margin-left: -300px; */
+   } 
+   .btn1,
+   .btn2{
+    width: 15rem;
+   }
+   .icons{
+    flex-direction: row;
+   }
+    .big-margin {
+    margin-top: 7rem;
+}
+
+
